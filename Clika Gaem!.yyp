@@ -35,9 +35,12 @@
   },
   "resources": [
     {"id":{"name":"s_Hero","path":"sprites/s_Hero/s_Hero.yy",},},
+    {"id":{"name":"H_Collision","path":"scripts/H_Collision/H_Collision.yy",},},
     {"id":{"name":"o_Hero","path":"objects/o_Hero/o_Hero.yy",},},
     {"id":{"name":"s_collision","path":"sprites/s_collision/s_collision.yy",},},
     {"id":{"name":"o_collision","path":"objects/o_collision/o_collision.yy",},},
+    {"id":{"name":"V_Collision","path":"scripts/V_Collision/V_Collision.yy",},},
+    {"id":{"name":"Movement","path":"scripts/Movement/Movement.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
