@@ -55,10 +55,10 @@ function H_Collision()
 				/// @DnDVersion : 1
 				/// @DnDHash : 587082E7
 				/// @DnDParent : 440FDE4A
-				/// @DnDArgument : "expr" "facing*.1"
+				/// @DnDArgument : "expr" "facing"
 				/// @DnDArgument : "expr_relative" "1"
 				/// @DnDArgument : "var" "x"
-				x += facing*.1;
+				x += facing;
 			}
 		}
 	}

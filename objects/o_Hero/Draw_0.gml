@@ -10,8 +10,8 @@ draw_self();
 /// @DnDArgument : "y" "-100"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""VSP: ""
-/// @DnDArgument : "var" "vsp"
-draw_text(x + 0, y + -100, string("VSP: ") + string(vsp));
+/// @DnDArgument : "var" "hsp"
+draw_text(x + 0, y + -100, string("VSP: ") + string(hsp));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1

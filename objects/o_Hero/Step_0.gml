@@ -1,5 +1,12 @@
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
+/// @DnDHash : 60D6B595
+/// @DnDArgument : "script" "Jumping"
+/// @DnDSaveInfo : "script" "Jumping"
+script_execute(Jumping);
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
 /// @DnDHash : 01E848DC
 /// @DnDArgument : "script" "Movement"
 /// @DnDSaveInfo : "script" "Movement"
