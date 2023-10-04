@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "H_Collision",
+  "name": "Collision",
   "isCompatibility": false,
   "isDnD": true,
   "parent": {

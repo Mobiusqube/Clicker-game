@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Jumping",
+  "name": "Coyote_Jump",
   "isCompatibility": false,
   "isDnD": true,
   "parent": {

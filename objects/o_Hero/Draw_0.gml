@@ -3,16 +3,6 @@
 /// @DnDHash : 6C6F434F
 draw_self();
 
-/// @DnDAction : YoYo Games.Drawing.Draw_Value
-/// @DnDVersion : 1
-/// @DnDHash : 0674AB0E
-/// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "-100"
-/// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""VSP: ""
-/// @DnDArgument : "var" "hsp"
-draw_text(x + 0, y + -100, string("VSP: ") + string(hsp));
-
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
 /// @DnDHash : 47972142
