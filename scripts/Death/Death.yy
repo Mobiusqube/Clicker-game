@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Coyote_Jump",
+  "name": "Death",
   "isCompatibility": false,
   "isDnD": true,
   "parent": {
