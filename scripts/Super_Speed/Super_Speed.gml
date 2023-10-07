@@ -26,9 +26,9 @@ function Super_Speed()
 			/// @DnDVersion : 1
 			/// @DnDHash : 43C8820D
 			/// @DnDParent : 6825214E
-			/// @DnDArgument : "expr" "facing*global.SS_Max_Speed"
+			/// @DnDArgument : "expr" "facing*global.SS_Speed_Multiplier*walk_spd"
 			/// @DnDArgument : "var" "hsp"
-			hsp = facing*global.SS_Max_Speed;
+			hsp = facing*global.SS_Speed_Multiplier*walk_spd;
 		}
 	}
 }

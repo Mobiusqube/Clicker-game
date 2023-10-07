@@ -35,9 +35,9 @@ global.SS_Timeleft = 0;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 1DC2147F
-/// @DnDArgument : "value" "20"
-/// @DnDArgument : "var" "SS_Max_Speed"
-global.SS_Max_Speed = 20;
+/// @DnDArgument : "value" "2"
+/// @DnDArgument : "var" "SS_Speed_Multiplier"
+global.SS_Speed_Multiplier = 2;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
