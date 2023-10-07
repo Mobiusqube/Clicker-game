@@ -211,7 +211,6 @@
     {"name":"inst_4B2D535D","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_602BF8EE","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6A021ACF","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_5EC03844","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_11F2DBB4","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
@@ -408,7 +407,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4B2D535D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_spike","path":"objects/o_spike/o_spike.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2848.0,"y":480.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_602BF8EE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_spike","path":"objects/o_spike/o_spike.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2912.0,"y":480.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6A021ACF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_Hero","path":"objects/o_Hero/o_Hero.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2240.0,"y":704.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5EC03844","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_Hero","path":"objects/o_Hero/o_Hero.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2144.0,"y":-9856.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_11F2DBB4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"o_Hero","path":"objects/o_Hero/o_Hero.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2304.0,"y":512.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Hero","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
