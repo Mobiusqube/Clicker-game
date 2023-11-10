@@ -17,6 +17,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"Death","order":9,"path":"scripts/Death/Death.yy",},
+    {"name":"Walljump","order":10,"path":"scripts/Walljump/Walljump.yy",},
     {"name":"s_Fullscreen","order":2,"path":"sprites/s_Fullscreen/s_Fullscreen.yy",},
     {"name":"Super_Speed","order":7,"path":"scripts/Super_Speed/Super_Speed.yy",},
     {"name":"Jump","order":3,"path":"scripts/Jump/Jump.yy",},
