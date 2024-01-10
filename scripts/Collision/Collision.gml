@@ -75,6 +75,13 @@ function Collision()
 				/// @DnDParent : 4D683816
 				/// @DnDArgument : "var" "hsp"
 				hsp = 0;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 0FF39061
+				/// @DnDParent : 4D683816
+				/// @DnDArgument : "var" "Acceleration"
+				Acceleration = 0;
 			}
 		}
 	}
@@ -158,6 +165,13 @@ function Collision()
 				/// @DnDParent : 5DE7DC53
 				/// @DnDArgument : "var" "vsp"
 				vsp = 0;
+			
+				/// @DnDAction : YoYo Games.Common.Variable
+				/// @DnDVersion : 1
+				/// @DnDHash : 46806277
+				/// @DnDParent : 5DE7DC53
+				/// @DnDArgument : "var" "VAcceleration"
+				VAcceleration = 0;
 			}
 		}
 	}

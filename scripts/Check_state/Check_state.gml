@@ -59,5 +59,26 @@ function Check_state()
 		/// @DnDArgument : "expr" "ps.Air"
 		/// @DnDArgument : "var" "state"
 		state = ps.Air;
+	
+		/// @DnDAction : YoYo Games.Collisions.If_Object_At
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 6DB1E3CC
+		/// @DnDParent : 2491DC0D
+		/// @DnDArgument : "x" "facing"
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y_relative" "1"
+		/// @DnDArgument : "object" "o_collision"
+		/// @DnDSaveInfo : "object" "o_collision"
+		var l6DB1E3CC_0 = instance_place(x + facing, y + 0, [o_collision]);
+		if ((l6DB1E3CC_0 > 0))
+		{
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 574EB430
+			/// @DnDParent : 6DB1E3CC
+			/// @DnDArgument : "expr" "ps.on_wall"
+			/// @DnDArgument : "var" "state"
+			state = ps.on_wall;
+		}
 	}
 }

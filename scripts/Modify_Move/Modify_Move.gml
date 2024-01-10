@@ -5,6 +5,32 @@
 /// @DnDArgument : "funcName" "Modify_Move"
 function Modify_Move() 
 {
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 76866D32
+	/// @DnDParent : 5E771270
+	/// @DnDArgument : "var" "last_facing"
+	/// @DnDArgument : "not" "1"
+	/// @DnDArgument : "value" "facing"
+	if(!(last_facing == facing))
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 73D32338
+		/// @DnDParent : 76866D32
+		/// @DnDArgument : "expr" "facing"
+		/// @DnDArgument : "var" "last_facing"
+		last_facing = facing;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 1745206F
+		/// @DnDParent : 76866D32
+		/// @DnDArgument : "expr" "1"
+		/// @DnDArgument : "var" "Acceleration"
+		Acceleration = 1;
+	}
+
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 0F79EC28
@@ -81,4 +107,12 @@ function Modify_Move()
 	/// @DnDArgument : "expr" "hsp*drag"
 	/// @DnDArgument : "var" "hsp"
 	hsp = hsp*drag;
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 34A3B78B
+	/// @DnDParent : 5E771270
+	/// @DnDArgument : "expr" "hsp*Acceleration"
+	/// @DnDArgument : "var" "hsp"
+	hsp = hsp*Acceleration;
 }

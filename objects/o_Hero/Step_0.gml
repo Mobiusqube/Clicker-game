@@ -29,15 +29,6 @@ switch(l2B6BF356_0)
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
-		/// @DnDHash : 55A215A6
-		/// @DnDParent : 58D97C03
-		/// @DnDArgument : "var_temp" "1"
-		/// @DnDArgument : "script" "Walljump"
-		/// @DnDSaveInfo : "script" "Walljump"
-		var script_execute(Walljump);
-	
-		/// @DnDAction : YoYo Games.Common.Execute_Script
-		/// @DnDVersion : 1.1
 		/// @DnDHash : 68D72EC0
 		/// @DnDParent : 58D97C03
 		/// @DnDArgument : "script" "Check_ground"
@@ -101,14 +92,6 @@ switch(l2B6BF356_0)
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
-		/// @DnDHash : 4896C20D
-		/// @DnDParent : 11C750D0
-		/// @DnDArgument : "script" "Walljump"
-		/// @DnDSaveInfo : "script" "Walljump"
-		script_execute(Walljump);
-	
-		/// @DnDAction : YoYo Games.Common.Execute_Script
-		/// @DnDVersion : 1.1
 		/// @DnDHash : 1C4463BA
 		/// @DnDParent : 11C750D0
 		/// @DnDArgument : "script" "Super_Speed"
@@ -164,6 +147,14 @@ switch(l2B6BF356_0)
 	case ps.Air:
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
+		/// @DnDHash : 62624FF4
+		/// @DnDParent : 7DE933BB
+		/// @DnDArgument : "script" "Walljump"
+		/// @DnDSaveInfo : "script" "Walljump"
+		script_execute(Walljump);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
 		/// @DnDHash : 14B0968C
 		/// @DnDParent : 7DE933BB
 		/// @DnDArgument : "script" "Check_state"
@@ -177,14 +168,6 @@ switch(l2B6BF356_0)
 		/// @DnDArgument : "script" "Input"
 		/// @DnDSaveInfo : "script" "Input"
 		script_execute(Input);
-	
-		/// @DnDAction : YoYo Games.Common.Execute_Script
-		/// @DnDVersion : 1.1
-		/// @DnDHash : 1CC29A35
-		/// @DnDParent : 7DE933BB
-		/// @DnDArgument : "script" "Walljump"
-		/// @DnDSaveInfo : "script" "Walljump"
-		script_execute(Walljump);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
@@ -222,6 +205,69 @@ switch(l2B6BF356_0)
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 27E504E2
 		/// @DnDParent : 7DE933BB
+		/// @DnDArgument : "script" "Death"
+		/// @DnDSaveInfo : "script" "Death"
+		script_execute(Death);
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 79863147
+	/// @DnDParent : 2B6BF356
+	/// @DnDArgument : "const" "ps.on_wall"
+	case ps.on_wall:
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 3B2DA1D9
+		/// @DnDParent : 79863147
+		/// @DnDArgument : "script" "Check_state"
+		/// @DnDSaveInfo : "script" "Check_state"
+		script_execute(Check_state);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 39141E52
+		/// @DnDParent : 79863147
+		/// @DnDArgument : "script" "Input"
+		/// @DnDSaveInfo : "script" "Input"
+		script_execute(Input);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 2405F064
+		/// @DnDParent : 79863147
+		/// @DnDArgument : "script" "Walljump"
+		/// @DnDSaveInfo : "script" "Walljump"
+		script_execute(Walljump);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 7CE0E98D
+		/// @DnDParent : 79863147
+		/// @DnDArgument : "script" "Modify_Move"
+		/// @DnDSaveInfo : "script" "Modify_Move"
+		script_execute(Modify_Move);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 4540E209
+		/// @DnDParent : 79863147
+		/// @DnDArgument : "script" "Check_ground"
+		/// @DnDSaveInfo : "script" "Check_ground"
+		script_execute(Check_ground);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 384E92A1
+		/// @DnDParent : 79863147
+		/// @DnDArgument : "script" "Collision"
+		/// @DnDSaveInfo : "script" "Collision"
+		script_execute(Collision);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 40FC89D7
+		/// @DnDParent : 79863147
 		/// @DnDArgument : "script" "Death"
 		/// @DnDSaveInfo : "script" "Death"
 		script_execute(Death);
