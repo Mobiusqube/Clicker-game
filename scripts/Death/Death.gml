@@ -31,6 +31,20 @@ function Death()
 		/// @DnDArgument : "expr" "213"
 		/// @DnDArgument : "var" "y"
 		y = 213;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 44EE27C5
+		/// @DnDParent : 0B24512B
+		/// @DnDArgument : "var" "hsp"
+		hsp = 0;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 06522324
+		/// @DnDParent : 0B24512B
+		/// @DnDArgument : "var" "vsp"
+		vsp = 0;
 	}
 
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At

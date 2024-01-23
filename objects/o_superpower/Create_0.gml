@@ -22,9 +22,9 @@ global.SS_Duration = 5;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 2C86259A
-/// @DnDArgument : "value" "2"
+/// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "SS_Level"
-global.SS_Level = 2;
+global.SS_Level = 1;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
@@ -35,9 +35,9 @@ global.SS_Timeleft = 0;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 1DC2147F
-/// @DnDArgument : "value" "2"
+/// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "SS_Speed_Multiplier"
-global.SS_Speed_Multiplier = 2;
+global.SS_Speed_Multiplier = 1;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

@@ -61,6 +61,22 @@ switch(l2B6BF356_0)
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
+		/// @DnDHash : 0FDE554F
+		/// @DnDParent : 58D97C03
+		/// @DnDArgument : "script" "Dash"
+		/// @DnDSaveInfo : "script" "Dash"
+		script_execute(Dash);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 18E2D2A5
+		/// @DnDParent : 58D97C03
+		/// @DnDArgument : "script" "Nail"
+		/// @DnDSaveInfo : "script" "Nail"
+		script_execute(Nail);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
 		/// @DnDHash : 1E97874E
 		/// @DnDParent : 58D97C03
 		/// @DnDArgument : "script" "Death"
@@ -129,6 +145,22 @@ switch(l2B6BF356_0)
 		/// @DnDArgument : "script" "Collision"
 		/// @DnDSaveInfo : "script" "Collision"
 		script_execute(Collision);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 76FA9A62
+		/// @DnDParent : 11C750D0
+		/// @DnDArgument : "script" "Dash"
+		/// @DnDSaveInfo : "script" "Dash"
+		script_execute(Dash);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 0DFBE5E3
+		/// @DnDParent : 11C750D0
+		/// @DnDArgument : "script" "Nail"
+		/// @DnDSaveInfo : "script" "Nail"
+		script_execute(Nail);
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
@@ -203,6 +235,22 @@ switch(l2B6BF356_0)
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
+		/// @DnDHash : 7B6BE2E5
+		/// @DnDParent : 7DE933BB
+		/// @DnDArgument : "script" "Dash"
+		/// @DnDSaveInfo : "script" "Dash"
+		script_execute(Dash);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 3717109C
+		/// @DnDParent : 7DE933BB
+		/// @DnDArgument : "script" "Nail"
+		/// @DnDSaveInfo : "script" "Nail"
+		script_execute(Nail);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
 		/// @DnDHash : 27E504E2
 		/// @DnDParent : 7DE933BB
 		/// @DnDArgument : "script" "Death"
@@ -266,8 +314,47 @@ switch(l2B6BF356_0)
 	
 		/// @DnDAction : YoYo Games.Common.Execute_Script
 		/// @DnDVersion : 1.1
-		/// @DnDHash : 40FC89D7
+		/// @DnDHash : 07109723
 		/// @DnDParent : 79863147
+		/// @DnDArgument : "script" "Nail"
+		/// @DnDSaveInfo : "script" "Nail"
+		script_execute(Nail);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 40F3EF34
+		/// @DnDParent : 79863147
+		/// @DnDArgument : "script" "Death"
+		/// @DnDSaveInfo : "script" "Death"
+		script_execute(Death);
+		break;
+
+	/// @DnDAction : YoYo Games.Switch.Case
+	/// @DnDVersion : 1
+	/// @DnDHash : 06C374C7
+	/// @DnDParent : 2B6BF356
+	/// @DnDArgument : "const" "ps.Dashing"
+	case ps.Dashing:
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 2DFE6563
+		/// @DnDParent : 06C374C7
+		/// @DnDArgument : "script" "Dash"
+		/// @DnDSaveInfo : "script" "Dash"
+		script_execute(Dash);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 46C3AF86
+		/// @DnDParent : 06C374C7
+		/// @DnDArgument : "script" "Collision"
+		/// @DnDSaveInfo : "script" "Collision"
+		script_execute(Collision);
+	
+		/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 3648D8A8
+		/// @DnDParent : 06C374C7
 		/// @DnDArgument : "script" "Death"
 		/// @DnDSaveInfo : "script" "Death"
 		script_execute(Death);
